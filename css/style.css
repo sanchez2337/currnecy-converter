@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.body {
+    max-width: 800px;
+    margin: 30px;
+    font-family: "Lato", sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+
+.head {
+    background-color: gold;
+    text-align: center;
+    outline: solid 2px;
+}
+
+.container {
+    background-color: #eee;
+}
+
+.form__fieldset {
+    padding: 10px;
+    border: none;
+}
+
+.form__legend {
+    background-color: gold;
+    padding: 5px;
+    text-align: center;
+    outline: solid 1px;
+}
+
+.form__labelText {
+    width: 100%;
+    display: inline-block;
+    max-width: 200px;
+    margin-right: 5px;
+}
+
+.form__field {
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form__paragraph {
+    color: hsl(0, 0%, 40%);
+}
+
+.form__button {
+    width: 100%;
+    background-color: gold;
+    padding: 5px;
+}
+
+.form__button:hover {
+    background-color: hsl(51, 100%, 60%);
+}
+
+.form__button:active {
+    background-color: hsl(51, 100%, 70%);
+}
