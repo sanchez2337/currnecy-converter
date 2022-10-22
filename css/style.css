@@ -13,6 +13,8 @@ html {
     font-family: "Lato", sans-serif;
     padding: 30px;
     text-align: center;
+    background-image: url("../images/tlo.jpg");
+    background-size: cover;
 }
 
 .head {
@@ -22,7 +24,7 @@ html {
 }
 
 .container {
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.767);
 }
 
 .form__fieldset {

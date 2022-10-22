@@ -1,16 +1,25 @@
+{
+function welcome() {
+    console.log("Witam wszystkich developerów");
+}
+
+welcome();
+}
+
 let amountElement = document.querySelector(".js-amount");
 let formElement = document.querySelector(".js-form");
 let currencyElement = document.querySelector(".js-currency");
 let currencyNameElement = document.querySelector(".js-currencyName");
 let resultElement = document.querySelector(".js-result");
 
-let usdRate = 5.02;
-let gbpRate = 5.55;
-let eurRate = 4.87;
-let chfRate = 5.03;
 
 formElement.addEventListener("submit", (event) => {
     event.preventDefault();
+
+    const usdRate = 5.02;
+    const gbpRate = 5.55;
+    const eurRate = 4.87;
+    const chfRate = 5.03;
 
     let amount = +amountElement.value;
     let currency = currencyElement.value;
