@@ -1,6 +1,8 @@
 # Currnecy-converter
 ![Currencies](images/screen.png)
-## What currencies
+## Demo
+https://sanchez2337.github.io/currnecy-converter/
+## What currencies you can count
 This is website to convert currencies from PLN to GBP, USD, EUR or CHF.
 ## Used technologies
 I used: BEM convention, JS, CSS, ES6+.
